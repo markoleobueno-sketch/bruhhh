@@ -1,0 +1,49 @@
+{
+  "name": "BruhhH - Fitness Tracker",
+  "short_name": "BruhhH",
+  "description": "The core of your structure. Daily discipline and metrics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#d95436",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Daily Fuel",
+      "short_name": "Fuel",
+      "description": "Log intake",
+      "url": "/?tab=meals",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Execute Workout",
+      "short_name": "Train",
+      "description": "Start session",
+      "url": "/?tab=train",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Metrics",
+      "short_name": "Stats",
+      "description": "Input body metrics",
+      "url": "/?tab=track",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
